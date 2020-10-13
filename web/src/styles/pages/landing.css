@@ -1,0 +1,72 @@
+#page-landing {
+    /* Gradiente / Blue */
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-landing .content-wapper {
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 580px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background: url(../../image/vetor.svg) no-repeat 80% center;
+    background-size: 40%;
+}
+
+#page-landing .content-wapper main {
+    max-width: 350px;
+}
+
+#page-landing .content-wapper main h1 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#page-landing .content-wapper main p {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.content-wapper .location {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.content-wapper .location strong {
+    font-weight: 800;
+}
+
+.content-wapper .enter-app {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.content-wapper .enter-app:hover {
+    background: #96feff;
+}
